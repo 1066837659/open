@@ -1,6 +1,18 @@
 /*
 https://jinggengjcq-isv.isvjcloud.com/fronth5/#/pages/unitedCardNew20211029/unitedCardNew20211029?actId=26d52498bc034abbb91521_1029
 10-29 11-3
+12.1~12.15 12.12大牌联合 宠爱有礼 [rush_jinggengjcq_dapainew.js]
+All变量适用
+————————————————
+入口：[ 12.1~12.15 12.12大牌联合 宠爱有礼 ()]
+
+请求太频繁会被黑ip
+过10分钟再执行
+cron:47 2 1-15 12 *
+============Quantumultx===============
+[task_local]
+#12.1~12.15 12.12大牌联合 宠爱有礼
+47 2 1-15 12 * https://raw.githubusercontent.com/smiek2121/scripts/master/gua_opencard75.js, tag=12.1~12.15 12.12大牌联合 宠爱有礼, enabled=true
 */
 const $ = new Env("大牌联合");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
