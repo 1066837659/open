@@ -23,9 +23,9 @@ function openCardActivity(activityId, activityUrl, pin, num, againUserIndex) {
       activityCookie = "";
       
     if (process.env.jd_zdjr_activityId)
-      activityId = f2baf1f7b701449d911eb2cd1b0f459b;
+      activityId = 'f2baf1f7b701449d911eb2cd1b0f459b';
     if (process.env.jd_zdjr_activityUrl)
-      activityUrl = https://cjhydz-isv.isvjcloud.com;
+      activityUrl = 'https://cjhydz-isv.isvjcloud.com';
     Object.keys(jdCookieNode).forEach((item) =>
       cookiesArr.push(jdCookieNode[item])
     );
