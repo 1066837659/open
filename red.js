@@ -19,7 +19,7 @@ export gua_nhjRed_rebatePin="pin1,pin2"
 
 */
 
-let rebateCodes = 'SCLyQi4'
+let rebateCodes = 'PLgXQbJ'
 let rebatePin = ''
 
 const $ = new Env('年货节红包');
